@@ -1,14 +1,8 @@
 public class Variables {
     public static void main(String[] args) {
-        int a = 3, b = 4;
-        int temp;
+        double angle = 180* (Math.PI / 180);
 
-        temp = a;
-        a = b;  
-        b = temp;
-
-        System.out.println("a = " + a + "\nb = " + b);
-     
-
+        System.out.println("le cosinus de 180° est :" + Math.cos(angle));
+        
     }
 }
